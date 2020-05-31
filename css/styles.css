@@ -139,7 +139,7 @@ ul [class] {list-style-type: none;}
 
     /*стиль адреса*/
               
-    .address-contact { 
+    .address { 
         padding-top: 32px;
         padding-bottom: 32px;
 
@@ -152,7 +152,18 @@ ul [class] {list-style-type: none;}
         letter-spacing: 0.02em;
             }
 
-    .address-contact:hover, .address-contact:focus, .address-contact:active
+    .adress .mail::before {
+        content:
+        fill: #cccccc;
+        width: 16px;
+        height: 11px;
+    }
+
+    .address .phone::before{
+        content: ;
+    }
+
+    .address:hover, .addresst:focus, .address:active
 
     .adress-link:hover,
     .adress-link:focus{
