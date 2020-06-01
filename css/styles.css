@@ -149,7 +149,7 @@ ul [class] {list-style-type: none;}
     letter-spacing: 0.02em;
     }      
 
-    .address-mail:hover, .address-mail:focus, .address-mail:active{
+    .address-mail:hover {
         color: var(--accent-color);
     }
 
@@ -291,7 +291,8 @@ ul [class] {list-style-type: none;}
         margin-right: auto;
         padding-top: 200px;
         padding-bottom: 200px;
-        background-image: /*linear-gradient(rgba(47, 48, 58, 0.8)),*/ url(../images/hero/hero.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.8)), url(../images/hero/hero.jpg);
+        background-color: rgb(49, 3, 3);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -374,8 +375,7 @@ ul [class] {list-style-type: none;}
         }
 
         /*наш профиль*/
-    
-   
+       
 .container .profile{
     
 }
