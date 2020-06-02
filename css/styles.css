@@ -149,27 +149,15 @@ ul [class] {list-style-type: none;}
     letter-spacing: 0.02em;
     }      
 
-    .address-mail:hover {
+    .address-mail:hover{
         color: var(--accent-color);
     }
 
-    .icon-envelope{
+    .icon-address{
        margin-right: 10px;
+       --color3: currentColor;
     }
-
-    .icon-envelope:hover{
-        --color3: var(--accent-color);
-    }
-
-    .icon-smartphone{
-        margin-right: 10px;
-        fill: var(--primary-text-color);
-    }
-
-    .icon-smartphone:hover{
-        --color3: var(--accent-color);
-    }
-          
+       
 /*лого*/
     .logo{
         color: var(--accent-color);
@@ -223,7 +211,7 @@ ul [class] {list-style-type: none;}
         padding-bottom: 10px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 46px;
+        margin-top: 30px;
        
         border-radius: 3px;
 
@@ -291,7 +279,7 @@ ul [class] {list-style-type: none;}
         margin-right: auto;
         padding-top: 200px;
         padding-bottom: 200px;
-        background-image: linear-gradient(rgba(47, 48, 58, 0.8)), url(../images/hero/hero.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)), url(../images/hero/hero.jpg);
         background-color: rgb(49, 3, 3);
         background-repeat: no-repeat;
         background-position: center;
@@ -375,7 +363,8 @@ ul [class] {list-style-type: none;}
         }
 
         /*наш профиль*/
-       
+    
+   
 .container .profile{
     
 }
@@ -534,17 +523,13 @@ letter-spacing: 0.03em;
     justify-content: center;
     display: inline-flex;
 }
+.social-links:hover
+    {background-color: var(--accent-color);
+    --color4: #FFFFFF;}
 
 .social-icon{
     fill: #AFB1B8;
 }
-
-.social-icon:hover{
-    --color4: #FFFFFF;
-}
-
-.social-links:hover
-    {background-color: var(--accent-color);}
 
     /*постоянные клиенты*/
 
@@ -584,9 +569,6 @@ letter-spacing: 0.03em;
 
 .clients__logo:hover{
     border: 1px solid var(--accent-color);
-}
-
-.clients-icon:hover{
     --color4: #2196F3;
 }
 
@@ -847,11 +829,10 @@ margin-right: 94px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-radius: 5px;
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-}
+    }
 
-.portfolio__card-content{
-
+.portfolio-link:hover{
+box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-title{
